@@ -6,7 +6,10 @@
         // REGISTER METHOD
         public JWTDto RegisterUser()
         {
-            throw new NotImplementedException();
+            JWTDto tokenToReturn = new JWTDto();
+            tokenToReturn.Token = "JWTToken";
+            tokenToReturn.Name = "John Doe";
+            return tokenToReturn;
         }
 
 
